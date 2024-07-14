@@ -1,0 +1,17 @@
+.ReactModal__Content,
+.ReactModal__Content--after-open {
+  height: 80%;
+
+  .blog-form-wrapper {
+    padding: 5px;
+    width: 100%;
+
+    .rdw-image-modal {
+      left: -135px;
+    }
+
+    .blog-img-uploader {
+      width: 50%;
+    }
+  }
+}

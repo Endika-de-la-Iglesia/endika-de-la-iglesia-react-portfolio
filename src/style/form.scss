@@ -1,0 +1,36 @@
+.text-area-wrapper {
+  width: 100%;
+}
+
+textarea {
+  border: 1px solid $teal;
+  background-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  height: 100px;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 21px;
+}
+
+.select-element {
+  border: 1px solid #ccc;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 21px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+}
+
+.custom-dropzone {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 21px;
+  cursor: pointer;
+}

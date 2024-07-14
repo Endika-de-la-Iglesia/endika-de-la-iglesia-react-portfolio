@@ -5,10 +5,10 @@ import { createStore, applyMiddleware } from "redux";
 import { BrowserRouter } from "react-router-dom";
 import App from "./components/app";
 import reducers from "./reducers";
+import "./style/main.scss";
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-import "./style/main.scss";
 
 function main() {
   ReactDOM.render(

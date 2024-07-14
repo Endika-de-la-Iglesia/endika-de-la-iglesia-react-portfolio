@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+    font-family: "Raleway", sans-serif;
+    
+    body {
+        margin: 0px;
+    }
+
+    * {
+        box-sizing: border-box 
+     }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.loading-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $teal;
+}

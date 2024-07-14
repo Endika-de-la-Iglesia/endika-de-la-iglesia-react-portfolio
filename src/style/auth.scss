@@ -1,0 +1,29 @@
+.auth-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 84px);
+
+  .left-column {
+    background-size: cover;
+  }
+
+  .right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $offwhite;
+
+    .login-title {
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+    }
+
+    .login-form-wrapper {
+      @include input-element();
+      @include base-grid();
+      grid-gap: 21px;
+      padding: 42px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.portfolio-manager-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    .left-side {
+        background-color: $offwhite;
+        width: 100%;
+        align-items: flex-start;
+    }
+    
+    .right-side {
+        background-color: $charcoal;
+        width: 100%;
+    }
+
+}
+
+
